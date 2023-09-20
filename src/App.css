@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  height: 100vh;
+  margin-bottom: -300px;
 }
 
 .App-logo {
@@ -24,6 +28,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +41,54 @@
     transform: rotate(360deg);
   }
 }
+
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 300px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row; /* Display sidebar and plan cards horizontally */
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.plan-card-container {
+  display: flex;
+  flex-direction: row; /* Display plan cards horizontally */
+  flex-wrap: wrap; /* Allow plan cards to wrap to the next line if needed */
+  justify-content: space-evenly;
+  color: black;
+  gap: 4px; /* Increase the spacing between plan cards */
+  margin-top: 70px;
+}
+
+/* Add the styling for Sidebar, Header, and PlanCard components as before */
+
+.frequency-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px; /* Reduce padding */
+}
+
+.frequency-button {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 10px 15px; /* Reduce padding */
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.frequency-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+h5{
+  color:blue;
+}
+

@@ -1,0 +1,81 @@
+/* PlanCard.css */
+
+.plancard {
+  display: inline-block; /* Change display to 'inline-block' */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; /* Add margin to separate cards horizontally */
+}
+
+.plancard:last-child {
+  margin-right: 0; /* Remove margin from the last card to avoid extra spacing */
+}
+
+.plan-card h2 {
+  font-size: 20px;
+  margin-right: 170px;
+  margin-left: 4px; /* Add margin to separate plan name and details */
+}
+
+ .plan-card logo {
+  font-size: 20px;
+  margin-right: 10px; 
+  margin-bottom: 10px ;
+  margin-left: 10px;
+  background-color: lightyellow;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+}
+
+.crossed-price {
+  color: #999; /* Customize the color */
+  text-decoration: line-through;
+  margin-right: 10px; /* Adjust spacing */
+}
+
+.current-price {
+  font-size: 24px; /* Customize the font size */
+  color: #333;
+
+   /* Customize the color */
+}
+
+button{
+  border-radius: 10px;
+  background-color: green;
+}
+
+.right-arrow {
+  font-size: 20px; /* Customize the font size */
+  margin-left: 5px; /* Adjust spacing */
+}
+
+.explore-button {
+  border: none;
+  background: none;
+  color: black; /* Customize the color */
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 19px; /* Customize the font size */
+  margin-top: 10px; /* Adjust spacing */
+}
+
+.right-arrow {
+  font-size: 20px; /* Customize the font size */
+  margin-left: 5px; /* Adjust spacing */
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9px;
+    background-color: lightblue;
+    color: #fff;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 50px;
+    padding: 0px 0px;
+    margin-left: 40px;
+    margin-right: 70px; /* Add margin to separate "P" button and company button */
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align user info to the right */
+    flex-grow: 1; /* Allow user info to take up remaining space */
+  }
+  
+  .company-button {
+    background: white;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold; /* Make the button bold */
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .arrow-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .arrow-down {
+    font-size: 18px;
+    margin-left: 5px;
+    color: black;
+  }
+  
+ 
